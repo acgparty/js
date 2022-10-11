@@ -2,12 +2,12 @@ var browser={ie6:function(){return((window.XMLHttpRequest==undefined)&&(ActiveXO
 
 function ad_left(){
     var html;
-    html = '<div id="ad_left" style="position:absolute;width:300px;height:300px;margin-left:50px;z-index:999"><img src="https://raw.githubusercontent.com/acgparty/pic/master/e2.png" width="300" height="375" /></div>';
+    html = '<div id="ad_left" style="position:absolute;width:300px;height:300px;margin-left:50px;z-index:999"><img src="https://cdn.jsdelivr.net/gh/acgparty/pic@master/e2.png" width="300" height="375" /></div>';
     dom.insertHtml(html);position.floatLeftCenter('ad_left');
 }
 function ad_right(){
     var html;
-    html = '<div id="ad_right" style="position:absolute;width:300px;height:300px;margin-right:50px;z-index:999"><img src="https://raw.githubusercontent.com/acgparty/pic/master/a3.png" width="300" height="375" /></div>';
+    html = '<div id="ad_right" style="position:absolute;width:300px;height:300px;margin-right:50px;z-index:999"><img src="https://cdn.jsdelivr.net/gh/acgparty/pic@master/a3.png" width="300" height="375" /></div>';
     dom.insertHtml(html);position.floatRightCenter('ad_right');
 }
 myEvent.add(window,'load',ad_left);
